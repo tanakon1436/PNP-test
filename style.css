@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    background-color: #0C264C;
+    opacity: 1;
+    background-image: radial-gradient(#fff 1.55px, #0C264C 1.55px);
+    background-size: 31px 31px;
+}
+#menuBar{
+    
+    height: 100px;
+    width: 100%;
+    background:white;
+    box-shadow: 1px 19px 39px 19px rgba(255,255,255,0.69);
+    -webkit-box-shadow: 1px 5px 20px 5px rgba(255,255,255,0.69);
+    -moz-box-shadow: 1px 5px 20px 5px rgba(255,255,255,0.69);
+    
+}
+#logo{
+
+    margin-left: auto;
+    float: left;
+}
+#middleT{
+    text-align: left;
+    float: left;
+    margin: 0px;
+    margin-left: 20px;
+    font-size: 45px;
+    font-family: 'Modern Age', sans-serif;                            
+    color: #0C264C;
+}
+.menuSelect{
+    text-align: center;
+    color: #0C264C;
+    
+    margin-left: 0px;
+}
+#formid{
+    width: 600px;
+    margin-left: 20px;
+}
+.menuSelect:link{
+    text-align: center;
+    color: #0C264C;
+
+}
+.menuSelect:hover{
+    cursor: pointer;
+    color:orange;
+    font-size: larger;
+    text-shadow: 0px 0px 9px orange;
+}
+.thmenu:link{
+    background:#ffff;
+    padding-left: 0%;
+}
+.thmenu:hover{
+    transition: 0.5s;
+    border-bottom: orange solid 5px;
+
+
+}
+.menuword{
+    text-align: center;
+}
+
+@import url('https://fonts.cdnfonts.com/css/modern-age');
+
