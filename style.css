@@ -11,6 +11,7 @@ h2 {
     
 }
 li{
+  font-size: 25px;
   color: white;
 }
 .pic{
@@ -19,6 +20,22 @@ li{
   width: 70px;
   float: left;
 }
+#word2{
+  color:white;
+  margin-top: -30px;
+  padding-right: 20px;
+  text-align: right;
+  font-size: 25px;
+
+}
+
+#word1{
+  color:white;
+  padding-right: 20px;
+  text-align: right;
+  font-size: 70px;
+}
+
 
 html, body {
   margin: 0;
@@ -164,10 +181,25 @@ html, body {
     background-size: 120%;
   }
   #name{
-    color: #0C264C;
+    color: #ffffff;
     margin-top: 20px;
     padding-left: 60px;
     float: left;
     font-size: 20px;
+  }
+  #word2{
+    color:white;
+    margin-top: -20px;
+    padding-right: 20px;
+    text-align: right;
+    font-size: 15px;
+  
+  }
+  
+  #word1{
+    color:white;
+    padding-right: 20px;
+    text-align: right;
+    font-size: 40px;
   }
 }
