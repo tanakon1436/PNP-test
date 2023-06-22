@@ -250,6 +250,7 @@ html, body {
   }
   .menu > li {
     display: flex;
+    z-index: 2;
     justify-content: center;
     margin: 0;
     padding: 0.5em 0;
@@ -357,7 +358,6 @@ html, body {
    
    button.learn-more .button-text {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    position: absolute;
     top: 5px;
     left: 75px;
     right: 0;
